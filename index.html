@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Chapter 43 - 48 -->
+
+    <!-- Question 01 -->
+    <a href="javascript:void(0)" onclick="linkAlert()">Function Link</a>
+
+
+    <!-- Question 02 -->
+    <h2 class="blue">Mobile Phone Lookup</h2>
+    <div class="top Container">
+        <img src="./images/phone1.jpg" onclick="phoneAlert()">
+        <img src="./images/phone2.jpg" onclick="phoneAlert()">
+        <img src="./images/phone3.jpg" onclick="phoneAlert()">
+        <img src="./images/phone4.jpg" onclick="phoneAlert()">
+    </div>
+    <div class="Container blue">
+        <span>IPhone 6</span>
+        <span>Samsung Galaxy</span>
+        <span>V10</span>
+        <span>Huawei</span>
+    </div>
+
+
+    <!-- Question 03 -->
+    <table id="myTable">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Khalil</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Haider</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Yousuf</td>
+            <td>11</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ggfd</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>affsd</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>gdgh</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>dsfds</td>
+            <td>7</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>gdfaff</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>sdfasd</td>
+            <td>11</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>asdf</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+
+    <!-- Question 04 -->
+    <img src="./images/img1.jpg" onmouseover="toggler(1, this)" onmouseout="toggler(0, this)" />
+
+
+    <!-- Question 05 -->
+    <p> Counter :
+        <input id="input" style="width: 50px; margin-left: 5px;" type="button" value="0">
+    </p>
+    <br>
+    <button onclick="countInc()">Increase</button>
+    <button onclick="countDec()">Decrease</button> -->
+
+
+    <!-- Chapter 49 - 52 -->
+
+    <!-- Question 01 -->
+    <h2>Signup Form</h2>
+    Name:
+    <input id="inp1" type="text" placeholder="Enter your Name">
+    <br>
+    Email:
+    <input id="inp2" type="email" placeholder="Enter your Email">
+    <br>
+    Password:
+    <input id="inp3" type="password" placeholder="Enter Password here">
+    <br>
+    Contact:
+    <input id="inp4" type="number" placeholder="Enter your Mobile no.">
+    <br>
+    <button onclick="submit()">SUBMIT</button>
+    <p id="p1">Entered Name is </p>
+    <p id="p2">Entered Email is </p>
+    <p id="p3">Entered Password is </p>
+    <p id="p4">Entered Contact Number is </p>
+
+
+    <!-- Question 02 -->
+    <p id="para">
+        Sunset is the time of day when our sky meets the outer space solar winds. There are blue, pink, and purple
+        swirls, spinning and twisting, like clouds of balloons caught in a whirlwind. The sun moves slowly to hide
+        behind the line of horizon,
+        <a href="javascript:void(0)" onclick="readMore()">Read More</a>
+    </p>
+
+
+    <!-- Question 03 -->
+    <table id="myTable">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Index</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Khalil</td>
+            <td>0</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Haider/td>
+            <td>1</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Yousuf</td>
+            <td>11</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>fdgdg</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>dgsfg</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>gdfg</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>ddfg</td>
+            <td>7</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>uvw</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>mdfg</td>
+            <td>11</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sdfs</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+            <td><button onclick="editRow(this)">Edit</button></td>
+        </tr>
+    </table>
+    <form class="hideForm" id="hide">
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Class" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Contact" />
+    </form>
+
+
+
+</body>
+<script src="./35-38/app.js"></script>
+
+</html>
